@@ -49,8 +49,8 @@ def favorite_bake():  # User Input/Type conversion
     baked_good = input('What is your favorite baked good?:')
     # 3.2 Create a second variable called `frequency` that asks the user:
     # Roughly how many times a month do you eat <baked_good>s? <-- use your `baked_good` variable in an f-string here
-    frequency = input('Roughly how many times a month do you eat' + baked_good + 's?')
-    # When the user inputs a number, what data type is it saved as? a string
+    frequency = input(f'Roughly how many times a month do you eat + {baked_good}s?')
+    # When the user inputs a number, what data type is it saved as? 
     # 3.3 Print out the _type_ of the `frequency` variable to check.
     print(type(frequency))
     # 3.4 Uncomment the print statements below, and get them to run WITHOUT changing the content--
@@ -58,5 +58,5 @@ def favorite_bake():  # User Input/Type conversion
     # What's missing from the first print statement to allow us to use a variable inside a string?
     # Use `type conversion` to fix the second one
     
-    # print('Ooooh, f{baked_good}s are delicious!')
+    # print(f'Ooooh, {baked_good}s are delicious!')
     # print(f'We recommend you eat {baked_good}s at least {int(frequency) * 2} times a month!')
