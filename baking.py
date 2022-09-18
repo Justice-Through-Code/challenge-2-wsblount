@@ -58,5 +58,5 @@ def favorite_bake():  # User Input/Type conversion
     # What's missing from the first print statement to allow us to use a variable inside a string?
     # Use `type conversion` to fix the second one
     
-    # print(f'Ooooh, {baked_good}s are delicious!')
-    # print(f'We recommend you eat {baked_good}s at least {int(frequency) * 2} times a month!')
+    print(f'Ooooh, {baked_good}s are delicious!')
+    print(f'We recommend you eat {baked_good}s at least {int(frequency) * 2} times a month!')
